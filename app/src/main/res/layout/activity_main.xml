@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.veeresh.b37_listvieweg2.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter city name"
+        android:id="@+id/editText1"
+        android:textSize="30sp"
+        android:textColor="#f00"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/button1"
+        android:textSize="30sp"
+        android:textColor="#000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="replace"
+        android:id="@+id/button2"
+        android:textSize="30sp"
+        android:textColor="#000"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1"></ListView>
+</LinearLayout>
